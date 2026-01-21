@@ -1,0 +1,2 @@
+def Funkcja(a,b);
+  
