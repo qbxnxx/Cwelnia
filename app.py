@@ -1,6 +1,8 @@
+# app.py
+
 def dodaj(a, b):
+    """Prosta funkcja dodająca dwie liczby."""
     return a + b
 
-# Przykładowe użycie:
-wynik = dodaj(5, 3)
-print(wynik)  # Wypisze: 8
+if __name__ == "__main__":
+    print(f"2 + 2 = {dodaj(2, 2)}")
